@@ -183,6 +183,7 @@ function allDone() {
 
             let newGameBtn = document.getElementById("newGameBtn")
             newGameBtn.classList.remove("hide")
+            newGameBtn.classList.add("newGame")
             newGameBtn.onclick = function(){
                 window.location.reload()
             }

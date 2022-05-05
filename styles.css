@@ -68,9 +68,9 @@ textarea {
     color: white;
 }
 
-#newGame {
+.newGame {
     background-color: teal;
-    margin-left: 33%;
+    margin-left: 42%;
     padding: 15px 32px;
     font-size: 20px;
     align-content: center;
