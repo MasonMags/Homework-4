@@ -180,6 +180,13 @@ function allDone() {
                 questionsDiv.append(scoresEl);
                 createSubmit.style.display = "none"
             }
+
+            let newGameBtn = document.getElementById("newGameBtn")
+            newGameBtn.classList.remove("hide")
+            newGameBtn.onclick = function(){
+                window.location.reload()
+            }
+
         
         }
     });

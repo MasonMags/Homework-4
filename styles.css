@@ -4,7 +4,7 @@
     top: 20%;
     width: 500px;
     height: 500px;
-    border: 1px solid teal;
+    border: 10px solid teal;
 }
 #startBtn {
     background-color: teal;
@@ -21,7 +21,11 @@
     float: right;
 }
 
-#goBack {
+.hide {
+    display: none
+}
+
+/* #goBack {
     background-color: teal;
     position: relative;
     padding: 10px;
@@ -32,11 +36,11 @@
     width: auto;
     text-align: center;
     text-decoration: none;
-}
+} */
 
 
 
-#clear {
+/* #clear {
     background-color: teal;
     position: relative;
     padding: 10px;
@@ -45,7 +49,7 @@
     top: 30%;
     right: 5%;
     text-align: center;
-}
+} */
 
 button {
     border-radius: 8px;
@@ -62,6 +66,16 @@ textarea {
     padding: 15px 32px;
     font-size: 20px;
     color: white;
+}
+
+#newGame {
+    background-color: teal;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    align-content: center;
+    color: white;
+
 }
 
 label {
@@ -107,18 +121,18 @@ left: 20%;
 a {
 margin-left: 20%;
 }
-#goBack {
+/* #goBack {
     
     position: relative;
     left: 55%;
-}
+} */
 
-#clear {
+/* #clear {
     
     position: relative;
     right: 5%;
     
-}
+} */
 }
 
 /* A Media Query max-width: 640px */
