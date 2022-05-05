@@ -1,7 +1,7 @@
 #wrapper {
     position: absolute;
     left: 30%;
-    top: 20%;
+    top: 12%;
     width: 500px;
     height: 500px;
     border: 10px solid teal;
@@ -12,6 +12,12 @@
     padding: 15px 32px;
     font-size: 20px;
     color: white;
+}
+.timer{
+    position: relative;
+    right: 50px;
+    top: 20px;
+    font-size: 30px;
 }
 #questionsDiv {
     margin: 20px;
