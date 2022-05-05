@@ -176,7 +176,7 @@ function allDone() {
             for (var i = 0; i < allScores.length; i++) {
 
                 var scoresEl = document.createElement("p");
-                scoresEl.textContent = allScores[i].initials + " " + allScores[i].score;
+                scoresEl.textContent = "Player: " + allScores[i].initials + " " + "Score: " + allScores[i].score;
                 questionsDiv.append(scoresEl);
                 createSubmit.style.display = "none"
             }
